@@ -24,12 +24,16 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>mb-tools</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>WSO2 Message Broker - Tools</name>
     <description>
         Standalone tools which are to be used alongside the WSO2 Message Broker
     </description>
     <url>http://wso2.com</url>
+
+    <modules>
+        <module>cli</module>
+    </modules>
 
     <dependencies>
     </dependencies>
